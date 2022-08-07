@@ -62,7 +62,6 @@ header>a{
     margin-left: 90%;
     bottom:70px;
     font-size: 2em;
-
   
 }
 main{
@@ -87,9 +86,13 @@ li>a{
     background-image: linear-gradient(to right,var(--cor1),var(--cor4),var(--cor3) );
     font-size:1.5em ;border: 1px solid ;
     border-radius: 20px ;
+    box-shadow: 2px 2px 2px white;
     width: 300px;
     padding:10px 50px 10px 50px;
     
+}
+li>a:hover{
+    box-shadow: 5px 5px 6px wheat;
 }
 ul{
     padding: 0%;
