@@ -1,13 +1,19 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?display=swap');
 
 :root{
     --cor1:#BF343F;
     --cor2:#F2CE1B;
     --cor3:#F2AB27;
     --cor4:#F28B30;
-    --cor5: black
+    --cor5: rgb(0, 0, 0);
 
-}
+    --fonte1:Georgia, 'Times New Roman', Times, serif;;
+    --fonte2:'Mansalva', cursiva;
+    --fonte3:verdana,sans-serif;
+
+    }
+
 
     
 
@@ -20,17 +26,19 @@ body{
 
 }
 header{
-    
+
     background-color: var(--cor5);
     display: block;
     min-width: 360;
     max-width: 600px;
     height: 50px;
     margin: auto;
+    padding-bottom: 10vh;
     
 }
 header>h1{
-    font-size: 1.3em;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
     width: 260px;
     margin: auto;
     text-align: center;
@@ -68,13 +76,22 @@ main{
     list-style: none;
     color: white;
 }
-li  {
-    margin: auto;
+li.cardapio  {
+    
     text-align: center;
-    width: 300px;
-    padding:10px;
-    border: 1px solid ;
-    border-radius: 20px 0px;
-    background-image: linear-gradient(to right,var(--cor1),var(--cor4),var(--cor3),var(--cor3) );
-
+    padding:20px;
+    margin: auto;
 }
+li>a{
+    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right,var(--cor1),var(--cor4),var(--cor3) );
+    font-size:1.5em ;border: 1px solid ;
+    border-radius: 20px ;
+    width: 300px;
+    padding:10px 50px 10px 50px;
+    
+}
+ul{
+    padding: 0%;
+}
+
