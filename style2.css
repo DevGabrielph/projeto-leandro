@@ -85,7 +85,7 @@ div{
     overflow:auto;
 
     
-    
+     
 }
 .itens{
     display: flex ;
@@ -104,7 +104,7 @@ div{
     background-color: #ffffff;
     padding-top: 21px;
     padding-bottom: 21px;
-    border: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     
@@ -113,7 +113,7 @@ div{
 h3{
     font-size: 0.8em;
     padding-left: 15px;
-    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
     text-align: center;
     
     border-top-right-radius: 20px;
@@ -123,8 +123,6 @@ h3{
 p{
     font-size: 0.6em;
     padding-left: 15px;
-
-    border: 1px solid rgb(0, 0, 0);
     margin: auto;
     
 }
@@ -132,7 +130,7 @@ p{
     font-size: x-large;
     font-weight: bold;
     padding-left: 15px;
-    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
     text-align: center;
     border-bottom-right-radius: 20px;
     
