@@ -100,7 +100,7 @@ div{
 }
 .itens>img{
     width: 100px;
-    height: 75px;
+    height: 100px;
     background-color: #ffffff;
     padding-top: 21px;
     padding-bottom: 21px;
@@ -114,6 +114,7 @@ h3{
     font-size: 0.8em;
     padding-left: 15px;
     border-bottom: 1px solid rgb(0, 0, 0);
+    width: 280px;
     text-align: center;
     
     border-top-right-radius: 20px;
