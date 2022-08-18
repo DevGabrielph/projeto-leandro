@@ -139,3 +139,16 @@ p{
 .valor,p,h3{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.185);
 }
+
+/*..................... O ID CARRINHO ESTA AQUI...................................*/
+
+
+
+
+#carrinho{
+    background-color: yellowgreen;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+
+}
