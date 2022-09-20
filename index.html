@@ -14,54 +14,107 @@
 </head>
 <body>
     <header>
-       <img src="imagens-leandro/android-chrome-187x66.png" alt="logo">
+       <div id="cabecalho">
+           <img src="imagens-leandro/android-chrome-187x66.png" alt="logo">
+           
+           <div id="carrinho-ext">
+               <div id="numero-de-itens">0</div>
+               <ion-icon name="cart-outline"></ion-icon>
+            </div>
+            
+            
+       </div>
+       <div id="interior-carrinho">
+        <div id="cabeçalho-carrinho">
+             <ion-icon id='voltar-carrinho' name="arrow-back-outline" ></ion-icon>
+             <h1 id="titulo-carrinho">Carrinho</h1>
+        </div>
+        <div id="area-carrinho"></div>
+        <div id="area-pagamento"></div>
+        <button type="submit" id='botao-finalizar' onclick="finalizarpedido()">Finalizar pedido</button>
+    </div>
 
        
+          
+           
 
-       <a href="carrinho.html" ><ion-icon name="cart-outline"></ion-icon></a>
+      
      
 
     </header>
+    <div id="teste"></div>
  
     <main>
-        <nav>
+        <nav class="listap">
             <ul>
-                <li class="cardapio" id="icardapio" >
-                    <a href="promoçoes.html"class="cardapio">Promoções</a>
+                <li  id="icardapio" >
+                    <div class="cardapio" id="promoçoes">Promoções</div>
                 </li>
 
-                <li class="cardapio"id="icardapio">
-                     <a href="porções.html"class="cardapio">Porções</a>
-                </li>
-
-
-                <li class="cardapio"id="icardapio">
-                    <a href="hamburgueres.html"class="cardapio">Hambúgueres</a>
-                </li>
-
-                <li class="cardapio"id="icardapio">
-                    <a href="cachorro-quente.html"class="cardapio">Cachorro Quente</a>
+                <li  id="icardapio">
+                    <div class="cardapio" id="porçoes">Porções</div>
                 </li>
 
 
-                <li class="cardapio"id="icardapio">
-                    <a href="bebida.html"class="cardapio">Bebidas</a>
+                <li id="icardapio">
+                    <div class="cardapio" id="hamb">Hambúgueres</div>
+                </li>
+                <li id="icardapio">
+                    <div class="cardapio" id="cachorro">Cachorro Quente</div>
                 </li>
 
 
-                <li class="cardapio"id="icardapio">
-                    <a href="sucos.html"class="cardapio">Sucos naturais</a>
+                <li id="icardapio">
+                   <div class="cardapio" id="bebidas" >Bebidas</div>
                 </li>
 
 
-                <li class="cardapio"id="icardapio">
-                    <a href="#"class="cardapio">Vitaminas</a>
+                <li id="icardapio">
+                    <div class="cardapio" id="sucos">Sucos naturais</div>
+                </li>
+
+
+                <li id="icardapio">
+                    <div class="cardapio" id="vitaminas" >Vitaminas</div>
                 </li>
     
     
     
             </ul>
+            
         </nav>
+
+      
+
+        <div id="lista-folha-itens">
+
+                <div id="cabeçalhoitens">
+                    <ion-icon id="voltar" name="arrow-back-outline" ></ion-icon>
+                    <h1 id="titulo-cabeçalho-itens">titulo</h1>
+                </div>
+
+                <div id="lista-itens">
+                    
+                    <div class="item1">
+                        <div class="descri-total">
+                            <img class="img-item1" src="" alt="">
+                        </div>
+                        <div class="descri-item1">
+                            <h1 class="titulo-item1" ></h1>
+                            <div class="descriçao-item1"></div>
+                    
+                                <div class="valor">
+                    
+                                    <div class="valor-item1"></div>
+                                </div>
+                    
+                    
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+        </div>
 
     </main>
     <footer>
