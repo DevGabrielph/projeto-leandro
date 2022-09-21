@@ -77,15 +77,25 @@ function vitaminas(){
 //------BOTÃO CARRINHO------
 function interiorCarrinho(){
     let interior=document.querySelector('#interior-carrinho')
+    
     interior.style.display='block'
-    folhaPrincipal.style.display='grid'
+    
+
+    let voltarCar=document.querySelector('#voltar-carrinho')
+    voltarCar.addEventListener('click',voltarCarrinho)
+
+    function voltarCarrinho(){
+        interior.style.display='none'
+    
+    }
     
 
 }
 
 
 
-//------------ BOTÃO VOLTAR-------
+
+//------------ BOTÃO VOLTAR-------------------
 
 function voltarInicio(){
 

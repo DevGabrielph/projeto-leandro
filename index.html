@@ -30,7 +30,21 @@
              <h1 id="titulo-carrinho">Carrinho</h1>
         </div>
         <div id="area-carrinho"></div>
-        <div id="area-pagamento"></div>
+        <div id="area-pagamento">
+            <fieldset>
+                <legend><h3>Escolha a Forma e Pagamento:</h3></legend>
+                <p>
+                    <input type="radio" name="pagamento" id="idinheiro"><label for="idinheiro"><strong>Dinheiro</strong></label>
+
+                    <input type="radio" name="pagamento" id="ipix"><label for="ipix"><strong>Pix</strong></label>
+
+                    <input type="radio" name="pagamento" id="idebito"><label for="idebito"><strong>Débito</strong></label>
+
+                    <input type="radio" name="pagamento" id="icredito"><label for="icredito"><strong>Crédito</strong></label>
+                </p>
+            </fieldset>
+        </div>
+        <button id="botao-continuar-comprando" onclick="ContinuarComprando()">Continuar Comprando</button>
         <button type="submit" id='botao-finalizar' onclick="finalizarpedido()">Finalizar pedido</button>
     </div>
 
@@ -111,7 +125,25 @@
                     
                         </div>
                     </div>
-                   
+
+
+                   <!--<div class="item1">
+                        <div class="descri-total">
+                            <img class="img-item1" src="" alt="">
+                        </div>
+                        <div class="descri-item1">
+                            <h1 class="titulo-item1" ></h1>
+                            <div class="descriçao-item1"></div>
+                    
+                                <div class="valor">
+                    
+                                    <div class="valor-item1"></div>
+                                </div>
+                    
+                    
+                        </div>
+                    </div>
+                   -->
                     
                 </div>
         </div>
