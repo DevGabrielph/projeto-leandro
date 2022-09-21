@@ -278,9 +278,12 @@ p>input{
     margin: 30px 5px 25px 5px;
     
     
+    
 }
 p>label{
     font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #botao-continuar-comprando{

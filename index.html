@@ -31,21 +31,22 @@
         </div>
         <div id="area-carrinho"></div>
         <div id="area-pagamento">
-            <fieldset>
-                <legend><h3>Escolha a Forma e Pagamento:</h3></legend>
+            <form action="#" autocomplete="on" method="post">
+                <fieldset>
+                    <legend><h3>Escolha a Forma e Pagamento:</h3></legend>
+                    <p>
+                        <input type="radio" name="pagamento" id="idinheiro" checked><label for="idinheiro"><strong>Dinheiro</strong></label>
+                        <input type="radio" name="pagamento" id="ipix"><label for="ipix"><strong>Pix</strong></label>
+                        <input type="radio" name="pagamento" id="idebito"><label for="idebito"><strong>Débito</strong></label>
+                        <input type="radio" name="pagamento" id="icredito"><label for="icredito"><strong>Crédito</strong></label>
+                    </p>
+                </fieldset>
                 <p>
-                    <input type="radio" name="pagamento" id="idinheiro"><label for="idinheiro"><strong>Dinheiro</strong></label>
-
-                    <input type="radio" name="pagamento" id="ipix"><label for="ipix"><strong>Pix</strong></label>
-
-                    <input type="radio" name="pagamento" id="idebito"><label for="idebito"><strong>Débito</strong></label>
-
-                    <input type="radio" name="pagamento" id="icredito"><label for="icredito"><strong>Crédito</strong></label>
+                    <button id="botao-continuar-comprando" onclick="ContinuarComprando()">Continuar Comprando</button>
+                    <button type="submit" id='botao-finalizar' onclick="finalizarpedido()">Finalizar pedido</button>
                 </p>
-            </fieldset>
+            </form>
         </div>
-        <button id="botao-continuar-comprando" onclick="ContinuarComprando()">Continuar Comprando</button>
-        <button type="submit" id='botao-finalizar' onclick="finalizarpedido()">Finalizar pedido</button>
     </div>
 
        
