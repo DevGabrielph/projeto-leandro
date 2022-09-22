@@ -81,7 +81,7 @@ main{
     width: 370px;
     border-radius: 20px;
     height:70vh ;
-    display: none;
+    display: grid;
     text-align: center;
     align-items: center;
     margin: auto;
@@ -189,7 +189,7 @@ li{
     border-radius: 20px;
     margin-left: auto;
     margin-top: 35px;
-    display: block;
+    display: none;
     align-items: center;
     
 
