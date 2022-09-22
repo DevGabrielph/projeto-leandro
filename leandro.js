@@ -40,6 +40,29 @@ function promoçoes(){
     folhaPrincipal.style.display='none'
     folhaItens.style.display='block'
     tituloCabeçalhoItens.innerHTML=tituloItens[0]
+
+    var promo =[
+        { nome:'2 X-tudos',descriçao:'<strong>Descrição:</strong> Pão, carne, queijo, presunto, bacon, ovo, alface, ketchup, maionese temperada, e batata palha.',valor:'R$ 19,99',imagem:"imagens/x-tudo.png"},
+
+        { nome:'Combo X-burguer',descriçao:'<strong>Descrição:</strong> lanche + batata frita + guaravita ou guaracamp.',valor:'R$ 12,00',imagem:"imagens/x-tudo.png"},
+
+        { nome:'Combo Duplo cheddar',descriçao:' <strong>Descrição:</strong> lanche + batata frita + guaravita ou guaracamp.',valor:'R$ 16,00',imagem:"imagens/x-tudo.png"},
+
+        { nome:'Combo X-Tudo ',descriçao:'<strong>Descrição:</strong> lanche + batata frita + guaravita ou guaracamp.',valor:'R$ 16,00',imagem:"imagens/x-tudo.png"},
+
+        { nome:'Combo X-Picanha',descriçao:'<strong>Descrição:</strong>  lanche + batata frita + refrigerante lata.',valor:'R$ 25,00',imagem:"imagens/x-tudo.png"},
+
+        { nome:'',descriçao:'',valor:'',imagem:''},
+
+        { nome:'',descriçao:'',valor:'',imagem:''},
+
+        { nome:'',descriçao:'',valor:'',imagem:''},
+
+        { nome:'',descriçao:'',valor:'',imagem:''},
+
+        { nome:'',descriçao:'',valor:'',imagem:''}
+
+    ]
    
 }
 
