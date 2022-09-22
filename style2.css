@@ -81,7 +81,7 @@ main{
     width: 370px;
     border-radius: 20px;
     height:70vh ;
-    display: grid;
+    display: none;
     text-align: center;
     align-items: center;
     margin: auto;
@@ -179,51 +179,17 @@ li{
        
     
 }
-.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
-    background-color: white;
-    display: inline-flex;
-    margin: 5px;
-    width: 320px;
-}
-.img-item1,.img-item2,.img-item3,.img-item4,.img-item5,.img-item6,.img-item7,.img-item8,.img-item9,.img-item10{
-    max-width: 100px;
-    align-items: center;
-}
-.descri-item1,.descri-item2,.descri-item3,.descri-item4,.descri-item5,.descri-item6,.descri-item7,.descri-item8,.descri-item9,.descri-item10{
-    margin: auto;
-}
-.descriçao-item1,.descriçao-item2,.descriçao-item3,.descriçao-item4,.descriçao-item5,.descriçao-item6,.descriçao-item7,.descriçao-item8,.descriçao-item9,.descriçao-item10{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    max-height:40px ;
-    overflow: hidden;
-    display: inline-block;
-
-}
-.descriçao-item1:hover,.descriçao-item2:hover,.descriçao-item3:hover,.descriçao-item4:hover,.descriçao-item5:hover,.descriçao-item6:hover,.descriçao-item7:hover,.descriçao-item8:hover,.descriçao-item9:hover,.descriçao-item10:hover{
-    transition: 1s;
-    max-height: 70px;
-}
-.titulo-item1,.titulo-item2,.titulo-item3,.titulo-item4,.titulo-item5,.titulo-item6,.titulo-item7,.titulo-item8,.titulo-item9,.titulo-item10{
-    font-size: 1.5em;
-    
-    
-}
-.valor-item1,.valor-item2,.valor-item3,.valor-item4,.valor-item5,.valor-item6,.valor-item7,.valor-item8,.valor-item9,.valor-item10{
-    font-size: larger;
-    font-weight: bold;
-}
 
 #interior-carrinho{
     color: white;
     width: 370px;
     height: 80vh;
-    background-color: #ffffffd2;
+    background-color: #ffffffa1;
     box-shadow: 2px 3px 16px rgb(253, 243, 243);
     border-radius: 20px;
     margin-left: auto;
     margin-top: 35px;
-    display: none;
+    display: block;
     align-items: center;
     
 
@@ -251,15 +217,49 @@ li{
 #area-carrinho{
     display: inline-block;
     margin-top: 75px;
-    background-color: rgb(206,202,202);
     width: 370px;
     height: 330px;
+    color: black;
+}
+#area-carrinho>ul>li{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#area-carrinho>ul>li>img{
+    width: 80px;
+    height: 100px;
+    
 
 }
+#area-carrinho>ul>li>div{
+    background-color: #97505670;
+}
+#area-carrinho>ul>li>div>h2{
+    text-align: center;
+    border-bottom: solid 1px black;
+    
+}
+#area-carrinho>ul>li>div>p{
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(180, 176, 176);
+}
+
+#area-carrinho>ul>li>div>h5{
+    align-items: center;
+    font-size: 1.2em ;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid 1px black;
+}
+
 #area-pagamento{
     width: 370px;
     height: 90px;
-    background-color: rgb(206,202,202);
+    background-color: #ffffff02;
     color: black;
 
 
@@ -273,19 +273,41 @@ fieldset>h3{
     
 
 }
+.custom-checkbox input{
+    
+    display: none;
+}
+.custom-checkbox> input>label>strong{
+    font-size:1.2em ;
+}
+.custom-checkbox input + label:before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: solid 1px rgb(32, 32, 32);
+    background-color: #e2e2e2;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0px 8px 5px 5px;
+    font-size: 1.2em;
+}
+.custom-checkbox input:checked + label:before{
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");/* -----LINK CHECKED JA EDITADO*/
+    background-color: green; 
+}
+/*
 p>input{
-    display: inline;
+    display: none;
     margin: 30px 5px 25px 5px;
-    
-    
-    
+        
 }
 p>label{
     font-size: 1.3em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+*/
 #botao-continuar-comprando{
     display: block;
     margin-left: 10px; ;
