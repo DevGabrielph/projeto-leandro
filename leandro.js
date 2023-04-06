@@ -19,8 +19,26 @@ imgCarrinho.setAttribute('onclick','Carrinho()')
 
 let main=document.querySelector('.main')
 
+let titulosP= [ 'Promoções','Porções','Hambúrgueres','Cachorro Quente','Bebidas']
 
+rendePaginaP()
 
+function rendePaginaP(){
+    let feed= document.createElement('div')
+    feed.classList.add('feed')
+    main.appendChild(feed)
+    
+    titulosP.map((todo)=>{
+        let areaFeed=document.createElement('div')
+        areaFeed.classList.add('areafeed')
+        feed.appendChild(areaFeed)
+        
+        let titulofeed=document.createElement('p')
+        titulofeed.innerHTML=todo
+        areaFeed.appendChild(titulofeed)
+        
+    })   
+}
 
 function Carrinho(){
     main.innerHTML=''
@@ -31,6 +49,7 @@ function renderCarrinho(){
 
     let carrinho= document.createElement('div')
     main.appendChild(carrinho)
+    carrinho.classList.add('carrinho')
 
     let cabecalhoCarrinho= document.createElement('div')
     carrinho.appendChild(cabecalhoCarrinho)

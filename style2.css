@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2? família=DynaPuff:wght@500&display=swap');
 
 *{
     padding: 0;
@@ -56,10 +55,10 @@ body{
     box-shadow: 1px 5px 8px rgb(255, 254, 253);
 
 }
-.main>div{
+.carrinho{
     margin: auto;
     margin-top: 20px;
-    width: 350px;
+    width: 300px;
     height: 600px;
     background-color: aquamarine;
     border-radius: 20px;
@@ -84,4 +83,33 @@ body{
     padding: 5px;
     border-radius: 20px;
     
+}
+.feed{
+    
+    max-height: 200px;
+    max-width: 800px;
+    border: 1px solid black;
+    display: flex;
+    overflow-x: auto;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.feed::-webkit-scrollbar{
+    width: 2px;
+    background-color: rgb(194, 197, 196);
+}
+
+.areafeed{
+    background-color: antiquewhite;
+    min-width: 210px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    margin: 2px;
+
+
+ 
+
 }
