@@ -33,9 +33,17 @@ function rendePaginaP(){
         areaFeed.classList.add('areafeed')
         feed.appendChild(areaFeed)
         
-        let titulofeed=document.createElement('p')
-        titulofeed.innerHTML=todo
-        areaFeed.appendChild(titulofeed)
+        let imgFeed= document.createElement('img')
+        imgFeed.src='./imagens-leandro/itens/x-tudo.png'
+        areaFeed.appendChild(imgFeed)
+
+        let titulosFeed= document.createElement('p')
+        areaFeed.appendChild(titulosFeed)
+
+        let titulosText= document.createTextNode(todo)
+        titulosFeed.appendChild(titulosText)
+        
+       
         
     })   
 }
