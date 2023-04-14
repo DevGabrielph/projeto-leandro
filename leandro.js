@@ -19,7 +19,7 @@ imgCarrinho.setAttribute('onclick','Carrinho()')
 
 let main=document.querySelector('.main')
 
-let titulosP= [ 'Promoções','Porções','Hambúrgueres','Cachorro Quente','Bebidas']
+let titulosP= [ 'Combos','Porções','Hambúrgueres','Cachorro Quente','Bebidas']
 
 rendePaginaP()
 
